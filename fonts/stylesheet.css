@@ -1,0 +1,214 @@
+/* FONTS */
+
+/* @font-face {
+	font-family: 'HelveticaNeueCyr';
+	src: url('HelveticaNeueCyr-Medium.eot');
+	src: local('HelveticaNeueCyr-Medium'),
+		url('HelveticaNeueCyr-Medium.eot?#iefix') format('embedded-opentype'),
+		url('HelveticaNeueCyr-Medium.woff') format('woff'),
+		url('HelveticaNeueCyr-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+} */
+
+@font-face {
+    font-family: 'Barlow';
+    /* src: url('FuturaNewMedium-Obl.eot'); */
+    src: local('Barlow'), local('FuturaNewMedium-Obl'),
+        /* url('FuturaNewMedium-Obl.eot?#iefix') format('embedded-opentype'), */
+        url('Barlow-Black.woff2') format('woff2'),
+        url('Barlow-Black.woff') format('woff'),
+        url('FuturaNewMedium-Obl.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    /* src: url('FuturaNewMedium-Obl.eot'); */
+    src: local('Barlow'), local('FuturaNewMedium-Obl'),
+        /* url('FuturaNewMedium-Obl.eot?#iefix') format('embedded-opentype'), */
+        url('Barlow-Bold.woff2') format('woff2'),
+        url('Barlow-Bold.woff') format('woff'),
+        url('FuturaNewMedium-Obl.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Barlow';
+    /* src: url('FuturaNewMedium-Obl.eot'); */
+    src: local('Barlow'), local('FuturaNewMedium-Obl'),
+        /* url('FuturaNewMedium-Obl.eot?#iefix') format('embedded-opentype'), */
+        url('Barlow-Medium.woff2') format('woff2'),
+        url('Barlow-Medium.woff') format('woff'),
+        url('FuturaNewMedium-Obl.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Barlow';
+    /* src: url('FuturaNewMedium-Obl.eot'); */
+    src: local('Barlow'), local('FuturaNewMedium-Obl'),
+        /* url('FuturaNewMedium-Obl.eot?#iefix') format('embedded-opentype'), */
+        url('Barlow-Regular.woff2') format('woff2'),
+        url('Barlow-Regular.woff') format('woff'),
+        url('FuturaNewMedium-Obl.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+ 
+/* @font-face {
+    font-family: 'Barlow Demi';
+    src: url('FuturaNewDemi-Obl.eot');
+    src: local('Barlow Demi Obl'), local('FuturaNewDemi-Obl'),
+        url('FuturaNewDemi-Obl.eot?#iefix') format('embedded-opentype'),
+        url('FuturaNewDemi-Obl.woff2') format('woff2'),
+        url('FuturaNewDemi-Obl.woff') format('woff'),
+        url('FuturaNewDemi-Obl.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+} */
+/*  
+@font-face {
+    font-family: 'Barlow';
+    src: url('FuturaNewMedium-Reg.eot');
+    src: local('Barlow Medium Reg'), local('FuturaNewMedium-Reg'),
+        url('FuturaNewMedium-Reg.eot?#iefix') format('embedded-opentype'),
+        url('FuturaNewMedium-Reg.woff2') format('woff2'),
+        url('FuturaNewMedium-Reg.woff') format('woff'),
+        url('FuturaNewMedium-Reg.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+ 
+@font-face {
+    font-family: 'Barlow';
+    src: url('FuturaNewHeavy-Reg.eot');
+    src: local('Barlow Heavy Reg'), local('FuturaNewHeavy-Reg'),
+        url('FuturaNewHeavy-Reg.eot?#iefix') format('embedded-opentype'),
+        url('FuturaNewHeavy-Reg.woff2') format('woff2'),
+        url('FuturaNewHeavy-Reg.woff') format('woff'),
+        url('FuturaNewHeavy-Reg.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+ 
+@font-face {
+    font-family: 'Barlow';
+    src: url('FuturaNewLight-Obl.eot');
+    src: local('Barlow Light Obl'), local('FuturaNewLight-Obl'),
+        url('FuturaNewLight-Obl.eot?#iefix') format('embedded-opentype'),
+        url('FuturaNewLight-Obl.woff2') format('woff2'),
+        url('FuturaNewLight-Obl.woff') format('woff'),
+        url('FuturaNewLight-Obl.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+ 
+@font-face {
+    font-family: 'Barlow Book';
+    src: url('FuturaNewBook-Obl.eot');
+    src: local('Barlow Book Obl'), local('FuturaNewBook-Obl'),
+        url('FuturaNewBook-Obl.eot?#iefix') format('embedded-opentype'),
+        url('FuturaNewBook-Obl.woff2') format('woff2'),
+        url('FuturaNewBook-Obl.woff') format('woff'),
+        url('FuturaNewBook-Obl.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+ 
+@font-face {
+    font-family: 'Barlow';
+    src: url('FuturaNewExtraBold-Obl.eot');
+    src: local('Barlow ExtraBold Obl'), local('FuturaNewExtraBold-Obl'),
+        url('FuturaNewExtraBold-Obl.eot?#iefix') format('embedded-opentype'),
+        url('FuturaNewExtraBold-Obl.woff2') format('woff2'),
+        url('FuturaNewExtraBold-Obl.woff') format('woff'),
+        url('FuturaNewExtraBold-Obl.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+ 
+@font-face {
+    font-family: 'Barlow Book';
+    src: url('FuturaNewBook-Reg.eot');
+    src: local('Barlow Book Reg'), local('FuturaNewBook-Reg'),
+        url('FuturaNewBook-Reg.eot?#iefix') format('embedded-opentype'),
+        url('FuturaNewBook-Reg.woff2') format('woff2'),
+        url('FuturaNewBook-Reg.woff') format('woff'),
+        url('FuturaNewBook-Reg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+ 
+@font-face {
+    font-family: 'Barlow';
+    src: url('FuturaNewBold-Obl.eot');
+    src: local('Barlow Bold Obl'), local('FuturaNewBold-Obl'),
+        url('FuturaNewBold-Obl.eot?#iefix') format('embedded-opentype'),
+        url('FuturaNewBold-Obl.woff2') format('woff2'),
+        url('FuturaNewBold-Obl.woff') format('woff'),
+        url('FuturaNewBold-Obl.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+ 
+@font-face {
+    font-family: 'Barlow';
+    src: url('FuturaNewExtraBold-Reg.eot');
+    src: local('Barlow ExtraBold Reg'), local('FuturaNewExtraBold-Reg'),
+        url('FuturaNewExtraBold-Reg.eot?#iefix') format('embedded-opentype'),
+        url('FuturaNewExtraBold-Reg.woff2') format('woff2'),
+        url('FuturaNewExtraBold-Reg.woff') format('woff'),
+        url('FuturaNewExtraBold-Reg.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+ 
+@font-face {
+    font-family: 'Barlow';
+    src: url('FuturaNewLight-Reg.eot');
+    src: local('Barlow Light Reg'), local('FuturaNewLight-Reg'),
+        url('FuturaNewLight-Reg.eot?#iefix') format('embedded-opentype'),
+        url('FuturaNewLight-Reg.woff2') format('woff2'),
+        url('FuturaNewLight-Reg.woff') format('woff'),
+        url('FuturaNewLight-Reg.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+ 
+@font-face {
+    font-family: 'Barlow Demi';
+    src: url('FuturaNewDemi-Reg.eot');
+    src: local('Barlow Demi Reg'), local('FuturaNewDemi-Reg'),
+        url('FuturaNewDemi-Reg.eot?#iefix') format('embedded-opentype'),
+        url('FuturaNewDemi-Reg.woff2') format('woff2'),
+        url('FuturaNewDemi-Reg.woff') format('woff'),
+        url('FuturaNewDemi-Reg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+ 
+@font-face {
+    font-family: 'Barlow';
+    src: url('FuturaNewBold-Reg.eot');
+    src: local('Barlow Bold Reg'), local('FuturaNewBold-Reg'),
+        url('FuturaNewBold-Reg.eot?#iefix') format('embedded-opentype'),
+        url('FuturaNewBold-Reg.woff2') format('woff2'),
+        url('FuturaNewBold-Reg.woff') format('woff'),
+        url('FuturaNewBold-Reg.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+ 
+@font-face {
+    font-family: 'Barlow';
+    src: url('FuturaNewHeavy-Obl.eot');
+    src: local('Barlow Heavy Obl'), local('FuturaNewHeavy-Obl'),
+        url('FuturaNewHeavy-Obl.eot?#iefix') format('embedded-opentype'),
+        url('FuturaNewHeavy-Obl.woff2') format('woff2'),
+        url('FuturaNewHeavy-Obl.woff') format('woff'),
+        url('FuturaNewHeavy-Obl.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+} */
